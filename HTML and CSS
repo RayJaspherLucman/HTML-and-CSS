@@ -1,0 +1,105 @@
+-----------HTML PART------------------
+
+<html>
+<head>
+	<title>Hands On Exam</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<header>
+		<h2>Wiferion</h2>
+	</header>
+	<nav>
+		<ul class="menu">
+			<li><a href="index.html"><h2>Home</h2></a></li>
+			<li><a href=""><h2>About Us</h2></a></li>
+			<li><a href=""><h2>Services</h2></a></li>
+			<li><a href=""><h2>Contact Us</h2></a></li>
+
+		</ul>
+	<nav>
+
+
+	<footer>
+		<h2>&copy; Copyright Reserved.</h2>
+	</footer>
+</body>
+</html>
+
+
+-----------CSS PART------------------
+
+
+
+body
+{	height: auto;
+	width: auto;
+	font-family: Pixelmix;
+}
+header h2
+{	color: white;
+	padding-top: 15px;
+}
+header 
+{	
+	text-align: left;
+	background-color: #0E8388;
+	height: 10vh;
+}
+
+header, footer
+{	
+	position: absolute;
+	width: 100%;
+
+}
+
+footer 
+{	background-color: #0E8388;
+	height: 15vh;
+	bottom: 0;
+}
+footer h2
+{
+	position: absolute;
+	left: 45%;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+nav
+{	
+	height: 20%;
+	width: 100%;
+	background-color: #222;
+
+}
+
+
+ul
+{	text-align: center;
+	margin: 0;
+	padding-top: 100px;	
+	list-style-type: none;
+	width: 100%;
+
+}
+
+li 
+{	margin-left: 10vh;
+	display: inline-block;
+}
+a, h2
+{	color: white;
+	text-decoration: none;
+
+}
+
+content 
+{
+	background-color: blue;
+}
+
